@@ -17,6 +17,9 @@ const Index = () => {
 
 const Credit = styled.div`
   margin: 246px 0 32px;
+  @media (max-width: 768px) {
+    margin: 126px 0 32px;
+  }
 `
 
 const CreditName = styled.a`

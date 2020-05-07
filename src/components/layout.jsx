@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 import Head from 'next/head'
+import Cursor from './cursor'
 
 const Layout =  (props) => {
+
   return (
     <>
       <Head>
@@ -12,6 +14,7 @@ const Layout =  (props) => {
       <Container>
         { props.children }
       </Container>
+      <Cursor />
     </>
   )
 }
