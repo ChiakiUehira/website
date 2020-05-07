@@ -17,10 +17,13 @@ const Layout =  (props) => {
 }
 
 const Container = styled.div`
-  padding: 24px;
+  padding: 64px;
   margin: 0 auto;
   max-width: 1260px;
   width: 100%;
+  @media (max-width: 768px) {
+    padding: 32px;
+  }
 `
 
 export default Layout
