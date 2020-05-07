@@ -1,0 +1,19 @@
+{
+  "name": "@chiakiuehira/website",
+  "version": "1.0.0",
+  "description": "record of activities",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "deploy": "next build && next export",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ChiakiUehira <me@uurr.io> (https://uurr.io)",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.3.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.0"
+  }
+}
